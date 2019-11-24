@@ -24,6 +24,17 @@ It support two type of button, text button and icon button.You can define the bu
     }
 ```
 
+* step 3: Activate `renderScript` for blur support in `app`'s `build.gradle`:
+```
+    android {
+      defaultConfig {
+        ...
+        renderscriptTargetApi 21
+        renderscriptSupportModeEnabled true
+      }
+    }
+```
+
 ###Usage
 Declare an AllAngleExpandableButton inside your XML file as show below, but note that the layout_width and layout_height is useless, the size of AllAngleExpandableButton is decided by aebMainButtonSizeDp and aebButtonElevation together at last. 
 ```xml
