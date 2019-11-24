@@ -7,7 +7,7 @@ It support two type of button, text button and icon button.You can define the bu
 
 ![screenshot](/screenshot/demo.gif)
 
-###Add to your project
+### Add to your project
 * step1:Add it in your root build.gradle at the end of repositories:
 ```xml
     allprojects {
@@ -35,7 +35,7 @@ It support two type of button, text button and icon button.You can define the bu
     }
 ```
 
-###Usage
+### Usage
 Declare an AllAngleExpandableButton inside your XML file as show below, but note that the layout_width and layout_height is useless, the size of AllAngleExpandableButton is decided by aebMainButtonSizeDp and aebButtonElevation together at last. 
 ```xml
 <com.fangxu.allangleexpandablebutton.AllAngleExpandableButton
@@ -98,7 +98,7 @@ use AllAngleExpandableButton in java code like this:
     });
 ```
 
-###Attributes
+### Attributes
 all of the attributes are listed below:  
 
 |attribute|value type|defalut value| description|
@@ -123,7 +123,7 @@ all of the attributes are listed below:
 |aebBlurBackground|boolean|false|if true, show blur background when expanded|
 |aebBlurRadius|float|10|blur radius|
 
-###License
+### License
 ```
 Copyright (c) 2016 uin3566 <xufang2@foxmail.com>
 
